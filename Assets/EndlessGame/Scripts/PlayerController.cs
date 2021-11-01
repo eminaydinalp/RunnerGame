@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
 		boxCollider.center = new Vector3(boxCollider.center.x, -0.07084812f, boxCollider.center.z);
 		boxCollider.size = new Vector3(boxCollider.size.x, -0.7619386f, boxCollider.size.z);
 
-		yield return new WaitForSeconds(1.3f);
+		yield return new WaitForSeconds(0.5f);
 
 		_animator.SetBool("isSliding", false);
 		boxCollider.center = new Vector3(boxCollider.center.x, 0.4929275f, boxCollider.center.z);
