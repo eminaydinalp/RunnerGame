@@ -266,3 +266,482 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006495 seconds.
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3470.
+Total: 6.807900 ms (FindLiveObjects: 1.141000 ms CreateObjectMapping: 0.134600 ms MarkObjects: 5.307900 ms  DeleteObjects: 0.219400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2618.502825 seconds.
+  path: Assets/EndlessGame/Models/character4/Aj.mat
+  artifactKey: Guid(260ef577edf4c2a47acee8df77239800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/character4/Aj.mat using Guid(260ef577edf4c2a47acee8df77239800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7159825a5f2a10bca677a2e9194704c9') in 0.396363 seconds 
+  Import took 0.409143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.125153 seconds.
+  path: Assets/EndlessGame/Models/Doozy
+  artifactKey: Guid(56e507689c2450e47b5238b9f641fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Doozy using Guid(56e507689c2450e47b5238b9f641fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6f367f1b7197b62a16a2b117df16c6') in 0.021258 seconds 
+  Import took 0.034025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.161179 seconds.
+  path: Assets/EndlessGame/Models/Timmy
+  artifactKey: Guid(459e17912d3b45240aff65f8b0541d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy using Guid(459e17912d3b45240aff65f8b0541d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895543405b786e0dbd5757985a548080') in 0.019262 seconds 
+  Import took 0.029389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.313733 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx
+  artifactKey: Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx using Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ff6364118730a27b928382fb92dfda') in 0.174171 seconds 
+  Import took 0.187881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.931963 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Diffuse.png
+  artifactKey: Guid(d9c631a8a48f6bc488319fd264aa962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Diffuse.png using Guid(d9c631a8a48f6bc488319fd264aa962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bed4337643ac921610d8725e2ef01a5') in 0.194549 seconds 
+  Import took 0.207600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx
+  artifactKey: Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx using Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4dd958ae1f628b5b6889730c5afc04') in 0.216978 seconds 
+  Import took 0.228171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Normal.png
+  artifactKey: Guid(43935433162f93742a4ebfe16f3669fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Normal.png using Guid(43935433162f93742a4ebfe16f3669fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09cd247211914b607227ca84198ad16') in 0.079017 seconds 
+  Import took 0.090733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Glossiness.png
+  artifactKey: Guid(da3996e8a90b022499be3f0fb3b12277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Glossiness.png using Guid(da3996e8a90b022499be3f0fb3b12277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42a76814209e5a622e75d17be33c4b9') in 0.083465 seconds 
+  Import took 0.094271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Specular.png
+  artifactKey: Guid(d87aacb0d0c58f84ca21ef7ce3c0260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Specular.png using Guid(d87aacb0d0c58f84ca21ef7ce3c0260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28804c48b4168d8a8a1b6831612fb366') in 0.076531 seconds 
+  Import took 0.085447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005154 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Specular.png
+  artifactKey: Guid(d87aacb0d0c58f84ca21ef7ce3c0260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Specular.png using Guid(d87aacb0d0c58f84ca21ef7ce3c0260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28804c48b4168d8a8a1b6831612fb366') in 0.065242 seconds 
+  Import took 0.076564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.851181 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_1001_Normal.png
+  artifactKey: Guid(43935433162f93742a4ebfe16f3669fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_1001_Normal.png using Guid(43935433162f93742a4ebfe16f3669fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c50c28b5859a7b3fd915b39434d6f5d') in 0.092975 seconds 
+  Import took 0.108070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.682656 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx
+  artifactKey: Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx using Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb219ec9eb01aaef8a59e0efe365c6') in 0.190789 seconds 
+  Import took 0.203274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.351344 seconds.
+  path: Assets/EndlessGame/Models/Timmy/New Material.mat
+  artifactKey: Guid(e0c02f02a5474af43980020217f0f009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/New Material.mat using Guid(e0c02f02a5474af43980020217f0f009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bc4f6b706b312d337f3fd002fdcf26') in 0.044827 seconds 
+  Import took 0.055778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.452614 seconds.
+  path: Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx
+  artifactKey: Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Models/Timmy/Ch09_nonPBR.fbx using Guid(650481257a73dad45b09cdfa0996a685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdde542fc0fcf28baedbbc220254e45e') in 0.079008 seconds 
+  Import took 0.089885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.351262 seconds.
+  path: Assets/EndlessGame/Prefabs/Doozy.prefab
+  artifactKey: Guid(32c80b66675673146adecf43255a1835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/Doozy.prefab using Guid(32c80b66675673146adecf43255a1835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7103d78ebfa39975c35c9a629b3441da') in 0.198522 seconds 
+  Import took 0.212440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.406049 seconds.
+  path: Assets/EndlessGame/Prefabs/Timmy.prefab
+  artifactKey: Guid(d5a3167e52e4cc241a3144dc17657486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/Timmy.prefab using Guid(d5a3167e52e4cc241a3144dc17657486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c7fc3c28b2a3cae14d8be0cf3960b') in 0.045759 seconds 
+  Import took 0.057619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.257716 seconds.
+  path: Assets/EndlessGame/Prefabs/Players
+  artifactKey: Guid(9688de983e0140545bd97ae003e767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/Players using Guid(9688de983e0140545bd97ae003e767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc73512967d3d88593170800830d61c') in 0.018829 seconds 
+  Import took 0.031854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.440654 seconds.
+  path: Assets/EndlessGame/Prefabs/Tiles
+  artifactKey: Guid(066f09ffd9eb39b4788a0df8cabbbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/Tiles using Guid(066f09ffd9eb39b4788a0df8cabbbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0774e77162dfb1f7d3748dbe334c4934') in 0.019923 seconds 
+  Import took 0.031809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 501.682014 seconds.
+  path: Assets/EndlessGame/Animations/Timmy
+  artifactKey: Guid(35f6d01b3eab62b44a1a9aefcfa43eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy using Guid(35f6d01b3eab62b44a1a9aefcfa43eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c459f848cdcf825ea19867d1f2a36f23') in 0.021589 seconds 
+  Import took 0.035509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.516573 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Jump Over.fbx
+  artifactKey: Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Jump Over.fbx using Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fb34f1c52f3cfde55dd2ff2feb851f') in 0.039048 seconds 
+  Import took 0.055962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.400588 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/TimmyController.controller
+  artifactKey: Guid(b333bd33d87979e4d96153c0c60a0d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/TimmyController.controller using Guid(b333bd33d87979e4d96153c0c60a0d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f2010089a5b46f72f17bdd8e00a05b') in 0.025087 seconds 
+  Import took 0.035408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.418447 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Jump Over.fbx
+  artifactKey: Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Jump Over.fbx using Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee385bf369d7108f9772626e2cfa19b7') in 0.017887 seconds 
+  Import took 0.028560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.608318 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Jump Over.fbx
+  artifactKey: Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Jump Over.fbx using Guid(e82b2e33812524544a21f6974f040f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62760ae806bdc9df836dfdeab746ef1c') in 0.016954 seconds 
+  Import took 0.030158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.085923 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx
+  artifactKey: Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx using Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f4b74625dd1bfe2149d40301a6a8f') in 0.033296 seconds 
+  Import took 0.047927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.048372 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx
+  artifactKey: Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx using Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f471e7d81405a0a5b4795b2d20736bd2') in 0.018930 seconds 
+  Import took 0.031430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.536454 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx
+  artifactKey: Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Treadmill Running.fbx using Guid(a3650c4e18947914c9e67e5ee9888f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465c0d97bb249e561b0550778c6da13') in 0.017608 seconds 
+  Import took 0.028704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008528 seconds.
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.4 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3566.
+Total: 7.375600 ms (FindLiveObjects: 0.883900 ms CreateObjectMapping: 0.323700 ms MarkObjects: 5.899000 ms  DeleteObjects: 0.265100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289.675135 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx
+  artifactKey: Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx using Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee70e36669cb12bee54eb45de822b472') in 0.091441 seconds 
+  Import took 0.103617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.468364 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx
+  artifactKey: Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx using Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd0c267799a309a42e306af91879fb6') in 0.021996 seconds 
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.178930 seconds.
+  path: Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx
+  artifactKey: Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Timmy/Hit To Head (1).fbx using Guid(b7efe58499b0d7543bbb02c6f663bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c53f66302c3a44fe1e4aad225d8eaf') in 0.015802 seconds 
+  Import took 0.029485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.874545 seconds.
+  path: Assets/EndlessGame/Prefabs/RoadWorksBarrierHigh.prefab
+  artifactKey: Guid(29629a4790a29594f896660903004f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/RoadWorksBarrierHigh.prefab using Guid(29629a4790a29594f896660903004f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0534d462aba1ff0536b32024e147ba1') in 0.221033 seconds 
+  Import took 0.233620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/EndlessGame/Prefabs/TrafficCone.prefab
+  artifactKey: Guid(2184e44fe7c109a4ebc3c229b3006348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/TrafficCone.prefab using Guid(2184e44fe7c109a4ebc3c229b3006348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e681896befb1f30265abfab044720961') in 0.050045 seconds 
+  Import took 0.062103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/EndlessGame/Prefabs/RoadWorksBarrierLow.prefab
+  artifactKey: Guid(af228d2be7d29a54cbf9bf7c3ad7c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/RoadWorksBarrierLow.prefab using Guid(af228d2be7d29a54cbf9bf7c3ad7c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3195ffcfccd42fda83d421dc42ea84e') in 0.056308 seconds 
+  Import took 0.069502 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004088 seconds.
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3616.
+Total: 2.232400 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.861000 ms  DeleteObjects: 0.097900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004622 seconds.
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3619.
+Total: 2.135000 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.851400 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1272.337817 seconds.
+  path: Assets/EndlessGame/Animations/Doozy/DoozyController.controller
+  artifactKey: Guid(b45c4f772c669684f821482dd3a29e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Animations/Doozy/DoozyController.controller using Guid(b45c4f772c669684f821482dd3a29e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37492529862765b3f6500427554b7135') in 0.025003 seconds 
+  Import took 0.030141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004304 seconds.
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3622.
+Total: 3.945600 ms (FindLiveObjects: 0.521200 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.169800 ms  DeleteObjects: 0.131000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
