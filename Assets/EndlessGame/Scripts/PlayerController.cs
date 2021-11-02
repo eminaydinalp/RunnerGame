@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
+	Slide slide;
 	Rigidbody _rigidbody;
 	public Animator _animator;
 	public Transform groundCheck;
@@ -23,7 +24,7 @@ public class PlayerController : MonoBehaviour
 	private void Awake()
 	{
 		_rigidbody = GetComponent<Rigidbody>();
-		
+		slide = GetComponent<Slide>();
 	}
 
 	private void Start()
@@ -44,7 +45,7 @@ public class PlayerController : MonoBehaviour
 			}		
 		}
 
-		if (SwipeManager.swipeDown) StartCoroutine(Slide());
+		if (SwipeManager.swipeDown) StartCoroutine(slide.DoSlide());
 
 		_animator.SetBool("isGrounded", isGrounded);
 		_animator.SetBool("isGameStarted", isGameStarted);
@@ -89,19 +90,5 @@ public class PlayerController : MonoBehaviour
 	{
 		_rigidbody.AddForce(Vector3.up * jumpForce);
 	}
-	public IEnumerator Slide()
-	{
-		_animator.SetBool("isSliding", true);
-		BoxCollider boxCollider = GetComponent<BoxCollider>();
-		boxCollider.center = new Vector3(boxCollider.center.x, -0.07084812f, boxCollider.center.z);
-		boxCollider.size = new Vector3(boxCollider.size.x, -0.7619386f, boxCollider.size.z);
-
-		yield return new WaitForSeconds(0.5f);
-
-		_animator.SetBool("isSliding", false);
-		boxCollider.center = new Vector3(boxCollider.center.x, 0.4929275f, boxCollider.center.z);
-		boxCollider.size = new Vector3(boxCollider.size.x, 1.88949f, boxCollider.size.z);
-	}
-
 
 }

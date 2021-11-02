@@ -123,6 +123,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &87381356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4102835509712155044, guid: 32c80b66675673146adecf43255a1835,
+    type: 3}
+  m_PrefabInstance: {fileID: 1123084577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &87381357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87381356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5217d234e52e7844db5966f8abdff720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstColliderSize: {x: 0.9141787, y: 2.0706298, z: 0.62222946}
+  firstColliderCenter: {x: 0.0002313256, y: 0.8719905, z: 0.03008401}
+  slideColliderSize: {x: 0.9141832, y: 0.9984606, z: 0.62222946}
+  slideColliderCenter: {x: 0.00023132566, y: 0.04740897, z: 0.030084014}
+  slideTime: 1
 --- !u!1 &187352673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1772442021327663978, guid: e7a4e335186b8484ca3f396f21fe30d0,
@@ -178,7 +201,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 452099165246633279}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1790026124}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 463412d7ef8cd6448873723ca6e08b6e, type: 3}
@@ -819,7 +842,7 @@ PrefabInstance:
     - target: {fileID: 4102835509712155040, guid: 32c80b66675673146adecf43255a1835,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.268
       objectReference: {fileID: 0}
     - target: {fileID: 4102835509712155040, guid: 32c80b66675673146adecf43255a1835,
         type: 3}
@@ -865,6 +888,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doozy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4102835509712155044, guid: 32c80b66675673146adecf43255a1835,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518833237149533312, guid: 32c80b66675673146adecf43255a1835,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8153204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518833237149533312, guid: 32c80b66675673146adecf43255a1835,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.9996453
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c80b66675673146adecf43255a1835, type: 3}
@@ -1594,6 +1632,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790026124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 452099166217610644, guid: e62e3881f763f9242a3ac6cbaece4bdf,
+    type: 3}
+  m_PrefabInstance: {fileID: 452099165246633279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1790026130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790026124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5217d234e52e7844db5966f8abdff720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstColliderSize: {x: 0.9458518, y: 1.88949, z: 1.5618668}
+  firstColliderCenter: {x: -0.0050475597, y: 0.4929275, z: 0.088151455}
+  slideColliderSize: {x: 0.9458518, y: 0.9057669, z: 1.5618668}
+  slideColliderCenter: {x: -0.0050475597, y: 0.0010668339, z: 0.088151455}
+  slideTime: 1
 --- !u!1 &1791532256
 GameObject:
   m_ObjectHideFlags: 0

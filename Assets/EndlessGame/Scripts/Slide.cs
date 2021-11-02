@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Slide : MonoBehaviour
 {
-    
+	PlayerController playerController;
     public Vector3 firstColliderSize;
     public Vector3 firstColliderCenter;
     public Vector3 slideColliderSize;
@@ -12,17 +12,20 @@ public class Slide : MonoBehaviour
 
     public float slideTime;
 
-
+	private void Awake()
+	{
+		playerController = GetComponent<PlayerController>();
+	}
 	public IEnumerator DoSlide()
 	{
-		//_animator.SetBool("isSliding", true);
+		playerController._animator.SetBool("isSliding", true);
 		BoxCollider boxCollider = GetComponent<BoxCollider>();
 		boxCollider.center = slideColliderCenter;
 		boxCollider.size = slideColliderSize;
 
 		yield return new WaitForSeconds(slideTime);
 
-		//_animator.SetBool("isSliding", false);
+		playerController._animator.SetBool("isSliding", false);
 		boxCollider.center = firstColliderCenter;
 		boxCollider.size = firstColliderSize;
 	}
