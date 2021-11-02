@@ -1004,7 +1004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4102835509712155040
 Transform:
   m_ObjectHideFlags: 0
@@ -1036,6 +1036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 2557666858325629124}
   groundCheck: {fileID: 845408603393413878}
+  followCameraTarget: {fileID: 4102835510921884029}
   groundLayer:
     serializedVersion: 2
     m_Bits: 512

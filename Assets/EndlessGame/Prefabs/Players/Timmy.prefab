@@ -194,6 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387664798843134779}
+  - component: {fileID: 1137327802413480906}
   m_Layer: 0
   m_Name: Ch09_nonPBR
   m_TagString: Untagged
@@ -209,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020790684980328833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.295, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1608586701715998516}
@@ -217,6 +218,25 @@ Transform:
   m_Father: {fileID: 5029836821535203034}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1137327802413480906
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020790684980328833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: e82b2e33812524544a21f6974f040f7e, type: 3}
+  m_Controller: {fileID: 9100000, guid: b333bd33d87979e4d96153c0c60a0d26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1114574356490480308
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3206691962962506324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.39, z: -0.02}
+  m_LocalPosition: {x: 0, y: -0.13, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5029836821535203034}
@@ -1191,8 +1211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463412d7ef8cd6448873723ca6e08b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
+  _animator: {fileID: 1137327802413480906}
   groundCheck: {fileID: 8540756174643641740}
+  followCameraTarget: {fileID: 5029836823012187655}
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
@@ -1229,8 +1250,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9141787, y: 1.8153204, z: 0.62222946}
-  m_Center: {x: 0.00023132563, y: 0.9996453, z: 0.030084014}
+  m_Size: {x: 0.9141787, y: 1.9104719, z: 0.58997995}
+  m_Center: {x: 0.00023132563, y: 1.2520893, z: 0.12893167}
 --- !u!114 &9024548277667510807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1243,11 +1264,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5217d234e52e7844db5966f8abdff720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstColliderSize: {x: 0.9141787, y: 2.0706298, z: 0.62222946}
-  firstColliderCenter: {x: 0.0002313256, y: 0.8719905, z: 0.03008401}
-  slideColliderSize: {x: 0.9141832, y: 0.9984606, z: 0.62222946}
-  slideColliderCenter: {x: 0.00023132566, y: 0.04740897, z: 0.030084014}
-  slideTime: 1
+  firstColliderSize: {x: 0.9141787, y: 1.9104719, z: 0.58997995}
+  firstColliderCenter: {x: 0.00023132563, y: 1.2520893, z: 0.12893167}
+  slideColliderSize: {x: 0.7611821, y: 0.5785117, z: 1.604731}
+  slideColliderCenter: {x: -0.113482386, y: 0.5960319, z: -0.077270806}
+  slideTime: 1.4
 --- !u!1 &5029836823012187652
 GameObject:
   m_ObjectHideFlags: 0
