@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 452099166217610638}
   - component: {fileID: 452099166217610643}
   - component: {fileID: 2120224944}
+  - component: {fileID: 1790026130}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,6 +138,7 @@ MonoBehaviour:
   desiredLane: 1
   laneDistance: 2.5
   jumpForce: 350
+  forwardSpeed: 20
   isGrounded: 0
   isGameStarted: 0
 --- !u!54 &452099166217610643
@@ -168,6 +170,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9458518, y: 1.88949, z: 1.5618668}
   m_Center: {x: -0.0050475597, y: 0.4929275, z: 0.088151455}
+--- !u!114 &1790026130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452099166217610644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5217d234e52e7844db5966f8abdff720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstColliderSize: {x: 0.9458518, y: 1.88949, z: 1.5618668}
+  firstColliderCenter: {x: -0.0050475597, y: 0.4929275, z: 0.088151455}
+  slideColliderSize: {x: 0.9458518, y: 0.9057669, z: 1.5618668}
+  slideColliderCenter: {x: -0.0050475597, y: 0.0010668339, z: 0.088151455}
+  slideTime: 1
 --- !u!1 &1750280841956207834
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750280841956207834}
   m_LocalRotation: {x: 0.9618956, y: -0, z: -0, w: -0.2734172}
-  m_LocalPosition: {x: -0, y: 0.55, z: 0.086}
+  m_LocalPosition: {x: 0, y: 1.103, z: 0.187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5973091731464016568}
@@ -311,6 +330,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f06948c4ddd6f4e418f5178fa73be5c9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a15a67063cab04ca4d8ec3004145c4, type: 2}
+    - target: {fileID: -7511558181221131132, guid: f06948c4ddd6f4e418f5178fa73be5c9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: dd14f589075473d408243f48d65822b6, type: 2}
     - target: {fileID: 919132149155446097, guid: f06948c4ddd6f4e418f5178fa73be5c9,
         type: 3}
       propertyPath: m_Name

@@ -4,6 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 public class SmoothFollowUsual : MonoBehaviour
 {
+    PlayerController playerController;
     private static SmoothFollowUsual instance = null;
     // The target we are following
     public Transform target;
@@ -33,9 +34,14 @@ public class SmoothFollowUsual : MonoBehaviour
             Destroy(this.gameObject);
         }
         instance = this;
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
+	private void Start()
+	{
+        target = playerController.followCameraTarget;
+	}
 
-    public void StarttoTurn()
+	public void StarttoTurn()
     {
         if (height != 1)
         {

@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 	Rigidbody _rigidbody;
 	public Animator _animator;
 	public Transform groundCheck;
+	public Transform followCameraTarget;
 	public LayerMask groundLayer;
 
 	public int desiredLane = 1;
