@@ -123,29 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &87381356 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4102835509712155044, guid: 32c80b66675673146adecf43255a1835,
-    type: 3}
-  m_PrefabInstance: {fileID: 1123084577}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &87381357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87381356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5217d234e52e7844db5966f8abdff720, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firstColliderSize: {x: 0.9141787, y: 2.0706298, z: 0.62222946}
-  firstColliderCenter: {x: 0.0002313256, y: 0.8719905, z: 0.03008401}
-  slideColliderSize: {x: 0.9141832, y: 0.9984606, z: 0.62222946}
-  slideColliderCenter: {x: 0.00023132566, y: 0.04740897, z: 0.030084014}
-  slideTime: 1
 --- !u!1 &187352673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1772442021327663978, guid: e7a4e335186b8484ca3f396f21fe30d0,
@@ -888,21 +865,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doozy
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102835509712155044, guid: 32c80b66675673146adecf43255a1835,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518833237149533312, guid: 32c80b66675673146adecf43255a1835,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.8153204
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518833237149533312, guid: 32c80b66675673146adecf43255a1835,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0.9996453
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c80b66675673146adecf43255a1835, type: 3}
