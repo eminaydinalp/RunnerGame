@@ -16,8 +16,6 @@ public class PlayerController : MonoBehaviour
 	public float laneDistance = 2.5f;
 	public float jumpForce;
 	public float forwardSpeed;
-	public float currentSpeed;
-
 
 	public bool isGrounded;
 	public bool isGameStarted;
@@ -57,12 +55,7 @@ public class PlayerController : MonoBehaviour
 	}
 	private void FixedUpdate()
 	{
-		if(forwardSpeed > currentSpeed)
-		{
-			currentSpeed = forwardSpeed;
-			forwardSpeed += 0.2f * Time.deltaTime;
-		}
-		
+		forwardSpeed += 0.2f * Time.deltaTime;
 	}
 
 	private void OnCollisionEnter(Collision collision)
