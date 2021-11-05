@@ -15,7 +15,7 @@ public class PowerupSpeed : MonoBehaviour, IPowerup
 
 	private void Awake()
 	{
-		powerupController = FindObjectOfType<PowerupController>();
+		powerupController = GameObject.FindGameObjectWithTag("PowerupController").GetComponent<PowerupController>();
 		playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 	}
 	public void EndProcess()

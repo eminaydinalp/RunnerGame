@@ -2,36 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerupPass : MonoBehaviour, IPowerup
+public class PowerupMagnet : MonoBehaviour, IPowerup
 {
 	PowerupController powerupController;
-
+	PlayerController playerController;
 	[SerializeField]
 	float _duration;
 	public float Duration => _duration;
-
-	public GameObject[] obstacles;
+	public GameObject magnetPrefab;
+	GameObject magnet;
+	public LayerMask layerMask;
 
 	private void Awake()
 	{
+		playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 		powerupController = GameObject.FindGameObjectWithTag("PowerupController").GetComponent<PowerupController>();
 	}
-	
 	public void EndProcess()
 	{
-		for (int i = 0; i < obstacles.Length; i++)
-		{
-			obstacles[i].GetComponent<BoxCollider>().isTrigger = false;
-		}
+		Destroy(magnet);
 	}
 
 	public void StartProcess()
 	{
-		obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
-		for (int i = 0; i < obstacles.Length; i++)
-		{
-			obstacles[i].GetComponent<BoxCollider>().isTrigger = true;
-		}
+		magnet = Instantiate(magnetPrefab, playerController.gameObject.transform.position, Quaternion.identity);
+		magnet.GetComponent<Magnet>().ExplosionDamage(magnet.transform.position, 5f, layerMask);
 	}
 	private void OnTriggerEnter(Collider other)
 	{
