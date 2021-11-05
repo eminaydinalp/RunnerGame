@@ -10,25 +10,27 @@ public class PowerupPass : MonoBehaviour, IPowerup
 	float _duration;
 	public float Duration => _duration;
 
-	public BoxCollider[] obstacles;
+	public GameObject[] obstacles;
 
 	private void Awake()
 	{
 		powerupController = FindObjectOfType<PowerupController>();
 	}
+	
 	public void EndProcess()
 	{
 		for (int i = 0; i < obstacles.Length; i++)
 		{
-			obstacles[i].isTrigger = false;
+			obstacles[i].GetComponent<BoxCollider>().isTrigger = false;
 		}
 	}
 
 	public void StartProcess()
 	{
+		obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
 		for (int i = 0; i < obstacles.Length; i++)
 		{
-			obstacles[i].isTrigger = true;
+			obstacles[i].GetComponent<BoxCollider>().isTrigger = true;
 		}
 	}
 	private void OnTriggerEnter(Collider other)

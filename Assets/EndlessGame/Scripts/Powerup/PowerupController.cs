@@ -60,17 +60,5 @@ public class PowerupController : MonoBehaviour
 
         keys = new List<IPowerup>(activePowerups.Keys);
     }
-
-    // Calls the end action of each powerup and clears them from the activePowerups
-    public void ClearActivePowerups()
-    {
-        foreach (KeyValuePair<IPowerup, float> Powerup in activePowerups)
-        {
-            Powerup.Key.EndProcess();
-        }
-
-        activePowerups.Clear();
-    }
-
     
 }
