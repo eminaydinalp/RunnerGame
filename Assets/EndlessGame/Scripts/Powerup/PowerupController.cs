@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerupController : MonoBehaviour
 {
-
+    public Button[] buttons;
     public Dictionary<IPowerup, float> activePowerups = new Dictionary<IPowerup, float>();
 
     public List<IPowerup> keys = new List<IPowerup>();
@@ -25,12 +26,14 @@ public class PowerupController : MonoBehaviour
             {
                 if (activePowerups[powerup] > 0)
                 {
+                    buttons[powerup.Index].interactable = true;
+                    buttons[powerup.Index].gameObject.transform.GetChild(0).GetComponent<Text>().text = "" + ((int)activePowerups[powerup]);
                     activePowerups[powerup] -= Time.deltaTime;
                 }
                 else
                 {
                     changed = true;
-
+                    buttons[powerup.Index].interactable = false;
                     activePowerups.Remove(powerup);
 
                     //if (powerup.endAction != null)

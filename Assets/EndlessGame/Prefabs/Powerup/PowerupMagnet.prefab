@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 695d08483789e394aa83bbe46ec8e034, type: 2}
+  - {fileID: 2100000, guid: a5933417eb3acda4db59c5a4737a2249, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _duration: 15
+  index: 2
   magnetPrefab: {fileID: 8575336278992224087, guid: f95c1d542a6a49f48970f9838124d766,
     type: 3}
   layerMask:

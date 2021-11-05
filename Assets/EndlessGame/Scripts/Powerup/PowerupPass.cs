@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PowerupPass : MonoBehaviour, IPowerup
 {
@@ -9,7 +11,9 @@ public class PowerupPass : MonoBehaviour, IPowerup
 	[SerializeField]
 	float _duration;
 	public float Duration => _duration;
-
+	[SerializeField]
+	int index;
+	public int Index => index;
 	public GameObject[] obstacles;
 
 	private void Awake()

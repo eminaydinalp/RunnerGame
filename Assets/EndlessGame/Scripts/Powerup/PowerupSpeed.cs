@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerupSpeed : MonoBehaviour, IPowerup 
 {
@@ -12,6 +13,9 @@ public class PowerupSpeed : MonoBehaviour, IPowerup
 	public float speed;
 
 	public float Duration => _duration;
+	[SerializeField]
+	int index;
+	public int Index => index;
 
 	private void Awake()
 	{

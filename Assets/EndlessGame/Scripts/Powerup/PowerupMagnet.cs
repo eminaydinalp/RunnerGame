@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerupMagnet : MonoBehaviour, IPowerup
 {
@@ -9,6 +10,11 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 	[SerializeField]
 	float _duration;
 	public float Duration => _duration;
+
+	[SerializeField]
+	int index;
+	public int Index => index;
+
 	public GameObject magnetPrefab;
 	GameObject magnet;
 	public LayerMask layerMask;
