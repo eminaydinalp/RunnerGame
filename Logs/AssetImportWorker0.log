@@ -15,11 +15,11 @@ C:/Users/DopingHafiza/Github/RunnerGame/RunnerGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60954
+49470
 Successfully changed project path to: C:/Users/DopingHafiza/Github/RunnerGame/RunnerGame
 C:/Users/DopingHafiza/Github/RunnerGame/RunnerGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,46 +36,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001458 seconds.
+Registered in 0.001071 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
+- Completed reload, in  1.314 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004812 seconds.
+Registered in 0.004409 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  0.808 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3027 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.6 MB.
-System memory in use after: 125.7 MB.
+Unloading 3029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 125.9 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3455.
-Total: 2.125400 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.789600 ms  DeleteObjects: 0.090300 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3457.
+Total: 2.197900 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.818500 ms  DeleteObjects: 0.089600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -89,129 +89,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/EndlessGame/Textures/Texture004.png
-  artifactKey: Guid(ba8f2f1940e9ddf4f963064d77008d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Textures/Texture004.png using Guid(ba8f2f1940e9ddf4f963064d77008d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860971e0e05b61ba9677d73613619f98') in 0.065723 seconds 
-  Import took 0.069491 seconds .
+  path: Assets/EndlessGame/Prefabs/Powerup.prefab
+  artifactKey: Guid(4c0bb9432ab34f84e93ff05a372c63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Prefabs/Powerup.prefab using Guid(4c0bb9432ab34f84e93ff05a372c63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df72614ef80e6c07f7e1c3114b3daf3a') in 0.149533 seconds 
+  Import took 0.153359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/EndlessGame/Materials/Materials/Tex_Ground.mat
-  artifactKey: Guid(3b4f7d5dcd37a484e9d0baf717d818b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/Tex_Ground.mat using Guid(3b4f7d5dcd37a484e9d0baf717d818b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c030252f311666d4e5c114688976bab') in 0.131091 seconds 
-  Import took 0.134970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/EndlessGame/Textures/Texture002.png
-  artifactKey: Guid(3fa73d892206591439476166cdc18608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Textures/Texture002.png using Guid(3fa73d892206591439476166cdc18608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb731d038ca7c5f918528a534698dea') in 0.009099 seconds 
-  Import took 0.013005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/EndlessGame/Materials/Materials/Tex_PalmTree.mat
-  artifactKey: Guid(4a71d1f668e035a41b9543b7b36e6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/Tex_PalmTree.mat using Guid(4a71d1f668e035a41b9543b7b36e6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e136e52d957657460dbedf8e8b07fd2') in 0.022295 seconds 
-  Import took 0.026969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.921616 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf4fcf9760a92aa242b30045000fde3') in 0.014526 seconds 
-  Import took 0.019418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 375.614414 seconds.
+  Time since last request: 0.000170 seconds.
   path: Assets/EndlessGame/Materials/Tex_Wave.mat
   artifactKey: Guid(7d2eed967663a584f9a278045402212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Tex_Wave.mat using Guid(7d2eed967663a584f9a278045402212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8f73fa54d11a9758f9da94823fcd4') in 0.015437 seconds 
-  Import took 0.020038 seconds .
+Start importing Assets/EndlessGame/Materials/Tex_Wave.mat using Guid(7d2eed967663a584f9a278045402212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad80e95a23770bdb1cca0ac235c75ef5') in 0.041050 seconds 
+  Import took 0.044875 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 418.352879 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d3de19cb9b4e9eefab8df57d2d4943') in 0.009185 seconds 
-  Import took 0.013860 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/EndlessGame/Materials/Tex_Fence.png
+  artifactKey: Guid(37374b71c6d88d542877a083cd043b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Materials/Tex_Fence.png using Guid(37374b71c6d88d542877a083cd043b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c213afa570112a43b7b2b221dabda') in 0.065279 seconds 
+  Import took 0.069189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066869 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afe925e23745fbb89bcaca25286ce1b') in 0.008771 seconds 
-  Import took 0.013202 seconds .
+  Time since last request: 9.943294 seconds.
+  path: Assets/EndlessGame/Scripts/Powerup
+  artifactKey: Guid(bb6968c756aa5094da01570f7181bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Scripts/Powerup using Guid(bb6968c756aa5094da01570f7181bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe5b765428f74b57db0b10ac766246d') in 0.002508 seconds 
+  Import took 0.007173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1125.514431 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bacbd9a853121b23e90d812c4579943') in 0.015133 seconds 
-  Import took 0.020807 seconds .
+  Time since last request: 0.001485 seconds.
+  path: Assets/EndlessGame/Scripts/Powerup
+  artifactKey: Guid(bb6968c756aa5094da01570f7181bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessGame/Scripts/Powerup using Guid(bb6968c756aa5094da01570f7181bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe5b765428f74b57db0b10ac766246d') in 0.002513 seconds 
+  Import took 0.006384 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/EndlessGame/Materials/Materials/Tex_Fence 1.png
-  artifactKey: Guid(b294b752383f04742834199243e21eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/Tex_Fence 1.png using Guid(b294b752383f04742834199243e21eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38da20abe68c9ae84145985d1983871') in 0.016283 seconds 
-  Import took 0.020801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.529019 seconds.
-  path: Assets/EndlessGame/Materials/Materials/Tex_Fence 1.png
-  artifactKey: Guid(b294b752383f04742834199243e21eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/Tex_Fence 1.png using Guid(b294b752383f04742834199243e21eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433aa6d5c85796826e47d69cb01d5f31') in 0.034563 seconds 
-  Import took 0.038869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1602.032146 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material 1.mat
-  artifactKey: Guid(c75643e8a8899824c8b4fd0b40ebed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material 1.mat using Guid(c75643e8a8899824c8b4fd0b40ebed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bdcc1ba8686b9639878d865dd555a2') in 0.013013 seconds 
-  Import took 0.018208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9730830120e068d452ce24372b98e') in 0.019927 seconds 
-  Import took 0.024160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.374358 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material 1.mat
-  artifactKey: Guid(c75643e8a8899824c8b4fd0b40ebed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material 1.mat using Guid(c75643e8a8899824c8b4fd0b40ebed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c92cc446c1bdb26a39d85aeaadcc573') in 0.040510 seconds 
-  Import took 0.045169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material 2.mat
-  artifactKey: Guid(4d9441f22b44c7e4da9dd410fdeaaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material 2.mat using Guid(4d9441f22b44c7e4da9dd410fdeaaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191ee4aa0a531b3b927303ffb9c7589e') in 0.012523 seconds 
-  Import took 0.016497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 438.959081 seconds.
-  path: Assets/EndlessGame/Materials/Materials/New Material.mat
-  artifactKey: Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndlessGame/Materials/Materials/New Material.mat using Guid(f223be27a40a1cf4d99aa19da52a8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef956a3fc91a95ac58169f85dadacd4') in 0.008786 seconds 
-  Import took 0.013446 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
