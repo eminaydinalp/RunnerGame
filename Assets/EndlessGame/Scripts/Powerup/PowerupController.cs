@@ -58,6 +58,7 @@ public class PowerupController : MonoBehaviour
         }
         else
         {
+            Debug.Log("aa");
             activePowerups[powerup] += powerup.Duration;
         }
 
