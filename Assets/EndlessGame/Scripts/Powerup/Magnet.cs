@@ -33,8 +33,8 @@ public class Magnet : MonoBehaviour
         foreach (var hitCollider in hitColliders)
         {
             GameObject gem = hitCollider.gameObject;
-            gem.transform.DOMove(playerController.transform.position, 1f);
-            yield return new WaitForSeconds(0.1f);
+            gem.transform.DOMove(playerController.transform.position, 0.3f);
+            yield return new WaitForSeconds(0.2f);
         }
 	}
 }
