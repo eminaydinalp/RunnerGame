@@ -5,9 +5,9 @@ using UnityEngine;
 public class PowerupController : MonoBehaviour
 {
 
-    public Dictionary<Powerup, float> activePowerups = new Dictionary<Powerup, float>();
+    public Dictionary<IPowerup, float> activePowerups = new Dictionary<IPowerup, float>();
 
-    private List<Powerup> keys = new List<Powerup>();
+    public List<IPowerup> keys = new List<IPowerup>();
 
     // Handles the beginning and ending of activated Powerups.
     // Inactive Powerups are removed automatically.
@@ -21,7 +21,7 @@ public class PowerupController : MonoBehaviour
 
         if (activePowerups.Count > 0)
         {
-            foreach (Powerup powerup in keys)
+            foreach (IPowerup powerup in keys)
             {
                 if (activePowerups[powerup] > 0)
                 {
@@ -41,30 +41,30 @@ public class PowerupController : MonoBehaviour
 
         if (changed)
         {
-            keys = new List<Powerup>(activePowerups.Keys);
+            keys = new List<IPowerup>(activePowerups.Keys);
         }
     }
 
     // Adds a global Powerup to the activePowerups list.
-    public void ActivatePowerup(Powerup powerup)
+    public void ActivatePowerup(IPowerup powerup)
     {
         if (!activePowerups.ContainsKey(powerup))
         {
             powerup.StartProcess();
-            activePowerups.Add(powerup, powerup.duration);
+            activePowerups.Add(powerup, powerup.Duration);
         }
         else
         {
-            activePowerups[powerup] += powerup.duration;
+            activePowerups[powerup] += powerup.Duration;
         }
 
-        keys = new List<Powerup>(activePowerups.Keys);
+        keys = new List<IPowerup>(activePowerups.Keys);
     }
 
     // Calls the end action of each powerup and clears them from the activePowerups
     public void ClearActivePowerups()
     {
-        foreach (KeyValuePair<Powerup, float> Powerup in activePowerups)
+        foreach (KeyValuePair<IPowerup, float> Powerup in activePowerups)
         {
             Powerup.Key.EndProcess();
         }

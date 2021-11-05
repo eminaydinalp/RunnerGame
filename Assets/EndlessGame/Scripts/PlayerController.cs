@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 	public float jumpForce;
 	public float forwardSpeed;
 	public float currentSpeed;
-
+	public bool isPowerup;
 
 	public bool isGrounded;
 	public bool isGameStarted;
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
 	}
 	private void FixedUpdate()
 	{
-		if(forwardSpeed > currentSpeed)
+		if(!isPowerup)
 		{
 			currentSpeed = forwardSpeed;
 			forwardSpeed += 0.2f * Time.deltaTime;
