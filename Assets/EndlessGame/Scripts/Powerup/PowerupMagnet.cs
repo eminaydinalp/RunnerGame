@@ -9,11 +9,27 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 	PlayerController playerController;
 	[SerializeField]
 	float _duration;
-	public float Duration => _duration;
 
+	public float Duration
+	{
+		get
+		{
+			return _duration;
+		}
+		set
+		{
+			_duration = value;
+		}
+
+	}
 	[SerializeField]
 	int index;
 	public int Index => index;
+	[SerializeField]
+	string _name;
+	public string Name => _name;
+
+	
 
 	public GameObject magnetPrefab;
 	GameObject magnet;

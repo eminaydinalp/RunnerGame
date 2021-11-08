@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 		if (SwipeManager.swipeDown) StartCoroutine(slide.DoSlide());
 
 		_animator.SetBool("isGrounded", isGrounded);
-		_animator.SetBool("isGameStarted", isGameStarted);
+		//_animator.SetBool("isGameStarted", isGameStarted);
 		
 
 	}

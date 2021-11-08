@@ -7,8 +7,9 @@ using UnityEngine.UI;
 
 public interface IPowerup
 {
-	float Duration { get; }
+	float Duration { get; set; }
 	int Index { get; }
+	string Name { get; }
 	void EndProcess();
 	void StartProcess();
 

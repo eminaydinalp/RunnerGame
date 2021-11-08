@@ -10,11 +10,25 @@ public class PowerupPass : MonoBehaviour, IPowerup
 
 	[SerializeField]
 	float _duration;
-	public float Duration => _duration;
+	public float Duration
+	{
+		get
+		{
+			return _duration;
+		}
+		set
+		{
+			_duration = value;
+		}
+
+	}
 	[SerializeField]
 	int index;
 	public int Index => index;
 	public GameObject[] obstacles;
+	[SerializeField]
+	string _name;
+	public string Name => _name;
 
 	private void Awake()
 	{
@@ -23,6 +37,7 @@ public class PowerupPass : MonoBehaviour, IPowerup
 	
 	public void EndProcess()
 	{
+		CancelInvoke(nameof(SetObstacle));
 		for (int i = 0; i < obstacles.Length; i++)
 		{
 			obstacles[i].GetComponent<BoxCollider>().isTrigger = false;
@@ -31,11 +46,7 @@ public class PowerupPass : MonoBehaviour, IPowerup
 
 	public void StartProcess()
 	{
-		obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
-		for (int i = 0; i < obstacles.Length; i++)
-		{
-			obstacles[i].GetComponent<BoxCollider>().isTrigger = true;
-		}
+		InvokeRepeating(nameof(SetObstacle), 0, 1);
 	}
 	private void OnTriggerEnter(Collider other)
 	{
@@ -43,6 +54,14 @@ public class PowerupPass : MonoBehaviour, IPowerup
 		{
 			powerupController.ActivatePowerup(this);
 			gameObject.SetActive(false);
+		}
+	}
+	public void SetObstacle()
+	{
+		obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
+		for (int i = 0; i < obstacles.Length; i++)
+		{
+			obstacles[i].GetComponent<BoxCollider>().isTrigger = true;
 		}
 	}
 }

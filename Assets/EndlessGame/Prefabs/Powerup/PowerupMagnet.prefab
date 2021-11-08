@@ -110,6 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _duration: 15
   index: 2
+  _name: Magnet
   magnetPrefab: {fileID: 8575336278992224087, guid: f95c1d542a6a49f48970f9838124d766,
     type: 3}
   layerMask:
