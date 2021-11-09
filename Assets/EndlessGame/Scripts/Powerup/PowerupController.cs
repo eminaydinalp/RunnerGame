@@ -20,7 +20,6 @@ public class PowerupController : MonoBehaviour
 		{
 			if(activePowerups.ContainsKey(powerupList[i].Name))
 			{
-
 				if (activePowerups[powerupList[i].Name] > 0)
 				{
 					buttons[powerupList[i].Index].interactable = true;
@@ -34,8 +33,7 @@ public class PowerupController : MonoBehaviour
 					powerupList[i].EndProcess();
 					powerupList.Remove(powerupList[i]);					
 				}
-			}
-			
+			}			
 		}
 	}
 

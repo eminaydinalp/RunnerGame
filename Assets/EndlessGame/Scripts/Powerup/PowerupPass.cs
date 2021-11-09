@@ -19,11 +19,16 @@ public class PowerupPass : MonoBehaviour, IPowerup
 	string _name;
 	public string Name => _name;
 
+	public MeshRenderer meshRenderer;
+
 	private void Awake()
 	{
 		powerupController = GameObject.FindGameObjectWithTag("PowerupController").GetComponent<PowerupController>();
 	}
-	
+	private void OnEnable()
+	{
+		meshRenderer.enabled = true;
+	}
 	public void EndProcess()
 	{
 		CancelInvoke(nameof(SetObstacle));
@@ -42,7 +47,7 @@ public class PowerupPass : MonoBehaviour, IPowerup
 		if (other.CompareTag("Player"))
 		{
 			powerupController.ActivatePowerup(this);
-			gameObject.SetActive(false);
+			meshRenderer.enabled = false;
 		}
 	}
 	public void SetObstacle()

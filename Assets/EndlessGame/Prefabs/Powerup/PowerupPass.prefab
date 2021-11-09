@@ -112,3 +112,4 @@ MonoBehaviour:
   index: 1
   obstacles: []
   _name: Pass
+  meshRenderer: {fileID: 1332960661160822831}

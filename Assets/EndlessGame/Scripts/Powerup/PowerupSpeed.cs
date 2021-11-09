@@ -19,10 +19,16 @@ public class PowerupSpeed : MonoBehaviour, IPowerup
 	string _name;
 	public string Name => _name;
 
+	public MeshRenderer meshRenderer;
+
 	private void Awake()
 	{
 		powerupController = GameObject.FindGameObjectWithTag("PowerupController").GetComponent<PowerupController>();
 		playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+	}
+	private void OnEnable()
+	{
+		meshRenderer.enabled = true;
 	}
 	public void EndProcess()
 	{
@@ -41,7 +47,7 @@ public class PowerupSpeed : MonoBehaviour, IPowerup
 		if (other.CompareTag("Player"))
 		{
 			powerupController.ActivatePowerup(this);
-			gameObject.SetActive(false);
+			meshRenderer.enabled = false;
 		}
 	}
 

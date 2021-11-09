@@ -11,7 +11,7 @@ public class Tile : MonoBehaviour
         foreach (GameObject container in gemContainers)
         {
             int i = Random.Range(0, 3);
-            if (i > 0)
+            if (i > 2)
                 container.SetActive(false);
             else
             {

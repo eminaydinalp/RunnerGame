@@ -18,7 +18,7 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 	string _name;
 	public string Name => _name;
 
-	
+	public MeshRenderer meshRenderer;
 
 	public GameObject magnetPrefab;
 	GameObject magnet;
@@ -28,6 +28,10 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 	{
 		playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 		powerupController = GameObject.FindGameObjectWithTag("PowerupController").GetComponent<PowerupController>();
+	}
+	private void OnEnable()
+	{
+		meshRenderer.enabled = true;
 	}
 	public void EndProcess()
 	{
@@ -44,7 +48,7 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 		if (other.CompareTag("Player"))
 		{
 			powerupController.ActivatePowerup(this);
-			gameObject.SetActive(false);
+			meshRenderer.enabled = true;
 		}
 	}
 }

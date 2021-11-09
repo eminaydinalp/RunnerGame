@@ -112,3 +112,4 @@ MonoBehaviour:
   speed: 50
   index: 0
   _name: Speed
+  meshRenderer: {fileID: 3356115622572279837}
