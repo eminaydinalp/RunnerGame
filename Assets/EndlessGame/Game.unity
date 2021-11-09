@@ -1164,6 +1164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doozy
       objectReference: {fileID: 0}
+    - target: {fileID: 4102835509712155044, guid: 32c80b66675673146adecf43255a1835,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c80b66675673146adecf43255a1835, type: 3}
 --- !u!1 &1229211064 stripped
@@ -2695,6 +2700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Timmy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029836821535203038, guid: d5a3167e52e4cc241a3144dc17657486,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a3167e52e4cc241a3144dc17657486, type: 3}

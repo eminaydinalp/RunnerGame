@@ -48,7 +48,7 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 		if (other.CompareTag("Player"))
 		{
 			powerupController.ActivatePowerup(this);
-			meshRenderer.enabled = true;
+			meshRenderer.enabled = false;
 		}
 	}
 }
