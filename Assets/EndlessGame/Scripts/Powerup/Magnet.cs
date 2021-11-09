@@ -34,7 +34,7 @@ public class Magnet : MonoBehaviour
         {
             GameObject gem = hitCollider.gameObject;
             gem.transform.DOMove(playerController.transform.position, 0.3f);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
         }
 	}
 }

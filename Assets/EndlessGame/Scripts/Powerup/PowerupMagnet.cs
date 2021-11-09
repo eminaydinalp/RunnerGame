@@ -41,7 +41,7 @@ public class PowerupMagnet : MonoBehaviour, IPowerup
 	public void StartProcess()
 	{
 		magnet = Instantiate(magnetPrefab, playerController.gameObject.transform.position, Quaternion.identity);
-		magnet.GetComponent<Magnet>().ExplosionDamage(magnet.transform.position, 5f, layerMask);
+		magnet.GetComponent<Magnet>().ExplosionDamage(magnet.transform.position, 10f, layerMask);
 	}
 	private void OnTriggerEnter(Collider other)
 	{
