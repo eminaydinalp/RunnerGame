@@ -11,19 +11,7 @@ public class PowerupSpeed : MonoBehaviour, IPowerup
 	[SerializeField]
 	float _duration;
 	public float speed;
-
-	public float Duration
-	{
-		get
-		{
-			return _duration;
-		}
-		set
-		{
-			_duration = value;
-		}
-
-	}
+	public float Duration => _duration;
 	[SerializeField]
 	int index;
 	public int Index => index;

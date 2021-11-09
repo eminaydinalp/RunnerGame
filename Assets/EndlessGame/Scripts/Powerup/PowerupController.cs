@@ -16,27 +16,32 @@ public class PowerupController : MonoBehaviour
 	}
 	private void HandleGlobalPowerups()
 	{
-
-		foreach (IPowerup powerup in powerupList)
+		for (int i = 0; i < powerupList.Count; i++)
 		{
-			if (activePowerups[powerup.Name] > 0)
+			if(activePowerups.ContainsKey(powerupList[i].Name))
 			{
-				buttons[powerup.Index].interactable = true;
-				buttons[powerup.Index].gameObject.transform.GetChild(0).GetComponent<Text>().text = "" + ((int)activePowerups[powerup.Name]);
-				activePowerups[powerup.Name] -= Time.deltaTime;
+
+				if (activePowerups[powerupList[i].Name] > 0)
+				{
+					buttons[powerupList[i].Index].interactable = true;
+					buttons[powerupList[i].Index].gameObject.transform.GetChild(0).GetComponent<Text>().text = "" + ((int)activePowerups[powerupList[i].Name]);
+					activePowerups[powerupList[i].Name] -= Time.deltaTime;
+				}
+				else
+				{
+					buttons[powerupList[i].Index].interactable = false;
+					activePowerups.Remove(powerupList[i].Name);
+					powerupList[i].EndProcess();
+					powerupList.Remove(powerupList[i]);					
+				}
 			}
-			else
-			{
-				buttons[powerup.Index].interactable = false;
-				powerupList.Remove(powerup);
-				activePowerups.Remove(powerup.Name);
-				powerup.EndProcess();
-			}
+			
 		}
 	}
 
 	public void ActivatePowerup(IPowerup powerup)
 	{
+		
 		if (!activePowerups.ContainsKey(powerup.Name))
 		{
 			powerup.StartProcess();
