@@ -528,3 +528,4 @@ Received Import Request.
 Start importing Assets/EndlessGame/Prefabs/Tiles/Tile2.prefab using Guid(e7a4e335186b8484ca3f396f21fe30d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd762587bbeefefec84b20d8a02e7637a') in 0.031111 seconds 
   Import took 0.035768 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
