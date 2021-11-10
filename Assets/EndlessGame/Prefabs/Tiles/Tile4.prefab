@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1328504043331819121}
   - component: {fileID: 8475311755589690460}
-  - component: {fileID: 9058075671605609072}
   m_Layer: 0
   m_Name: Tile4
   m_TagString: Ground
@@ -54,22 +53,6 @@ MonoBehaviour:
   objectDistance: -30
   despawnDistance: -70
   canSpawnGround: 1
---- !u!114 &9058075671605609072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1328504043331819118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b382bd45fb82c41419e4e6cfdfdcc455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemContainers:
-  - {fileID: 7591631368023080824}
-  - {fileID: 946980779316358135}
-  - {fileID: 7927962949719575052}
 --- !u!1001 &491805702911725307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -139,12 +122,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015b8578b406e6c47a031e359a60d26a, type: 3}
---- !u!1 &7591631368023080824 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8037194907836412291, guid: 015b8578b406e6c47a031e359a60d26a,
-    type: 3}
-  m_PrefabInstance: {fileID: 491805702911725307}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8063052688856663120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7581397780373949099, guid: 015b8578b406e6c47a031e359a60d26a,
@@ -295,12 +272,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9633b8af1c5e03b42b33a55a977ff15e, type: 3}
---- !u!1 &7927962949719575052 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2499985205010652661, guid: 9633b8af1c5e03b42b33a55a977ff15e,
-    type: 3}
-  m_PrefabInstance: {fileID: 5527169086965553145}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7546515094877466916 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2598269667068962525, guid: 9633b8af1c5e03b42b33a55a977ff15e,
@@ -376,12 +347,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015b8578b406e6c47a031e359a60d26a, type: 3}
---- !u!1 &946980779316358135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8037194907836412291, guid: 015b8578b406e6c47a031e359a60d26a,
-    type: 3}
-  m_PrefabInstance: {fileID: 7110480330073365108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &836272270194446559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7581397780373949099, guid: 015b8578b406e6c47a031e359a60d26a,

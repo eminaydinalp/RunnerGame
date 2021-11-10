@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8278695107139211373}
   - component: {fileID: 5814684680269642131}
-  - component: {fileID: 2879279883741436511}
   m_Layer: 0
   m_Name: Tile1
   m_TagString: Ground
@@ -50,21 +49,6 @@ MonoBehaviour:
   objectDistance: -30
   despawnDistance: -70
   canSpawnGround: 1
---- !u!114 &2879279883741436511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8278695107139211378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b382bd45fb82c41419e4e6cfdfdcc455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemContainers:
-  - {fileID: 5876797677311317373}
-  - {fileID: 6889721235382489851}
 --- !u!1001 &8304408008299841672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134,12 +118,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9633b8af1c5e03b42b33a55a977ff15e, type: 3}
---- !u!1 &5876797677311317373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2499985205010652661, guid: 9633b8af1c5e03b42b33a55a977ff15e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8304408008299841672}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6283022218688360021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2598269667068962525, guid: 9633b8af1c5e03b42b33a55a977ff15e,
@@ -290,12 +268,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9633b8af1c5e03b42b33a55a977ff15e, type: 3}
---- !u!1 &6889721235382489851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2499985205010652661, guid: 9633b8af1c5e03b42b33a55a977ff15e,
-    type: 3}
-  m_PrefabInstance: {fileID: 9019742181603413774}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6422810124125301203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2598269667068962525, guid: 9633b8af1c5e03b42b33a55a977ff15e,

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5380857526517351927}
   - component: {fileID: 148893297115522554}
-  - component: {fileID: 4704632669559697966}
   m_Layer: 0
   m_Name: Tile5
   m_TagString: Ground
@@ -53,21 +52,6 @@ MonoBehaviour:
   objectDistance: -30
   despawnDistance: -70
   canSpawnGround: 1
---- !u!114 &4704632669559697966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5380857526517351912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b382bd45fb82c41419e4e6cfdfdcc455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemContainers:
-  - {fileID: 2079962365051539054}
-  - {fileID: 8844484453231908214}
 --- !u!1001 &1511075100728962042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -362,12 +346,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9633b8af1c5e03b42b33a55a977ff15e, type: 3}
---- !u!1 &8844484453231908214 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2499985205010652661, guid: 9633b8af1c5e03b42b33a55a977ff15e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6344534538898507907}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8935907962735521374 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2598269667068962525, guid: 9633b8af1c5e03b42b33a55a977ff15e,
@@ -443,12 +421,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015b8578b406e6c47a031e359a60d26a, type: 3}
---- !u!1 &2079962365051539054 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8037194907836412291, guid: 015b8578b406e6c47a031e359a60d26a,
-    type: 3}
-  m_PrefabInstance: {fileID: 8310364998798868461}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1901312832887141702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7581397780373949099, guid: 015b8578b406e6c47a031e359a60d26a,

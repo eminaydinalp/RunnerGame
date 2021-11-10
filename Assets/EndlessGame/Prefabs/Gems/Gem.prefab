@@ -91,7 +91,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4788984469327394388}
   - component: {fileID: 4788984469327394386}
-  - component: {fileID: 4788984469327394387}
   - component: {fileID: 4362545661479158316}
   m_Layer: 11
   m_Name: Gem
@@ -128,25 +127,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7218615, y: 0.52552843, z: 0.656417}
   m_Center: {x: 0.008180559, y: 0.53173554, z: 0.008180559}
---- !u!95 &4788984469327394387
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4788984469327394389}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d17e355b17ac59d4fb3204f07cfef0a6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &4362545661479158316
 MonoBehaviour:
   m_ObjectHideFlags: 0
