@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79bad799301c9644aba6c6c34568c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 15
+  _duration: 5
   index: 2
   _name: Magnet
   meshRenderer: {fileID: 3608108460578605227}
