@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41830c93e8b71cd4bac05298b0369c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 3
+  _duration: 4
   index: 1
   obstacles: []
   _name: Pass
